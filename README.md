@@ -137,7 +137,7 @@ The first row, besides the header, must be the plural formula:
 Rows are added for each translatable string:
 
 | Column | Type | Description |
-| ------ | ---- | ---- | ----------- |
+| ------ | ---- | ----------- |
 | 1 | Integer | Resource integer ID |
 | 2 | Integer, optional | Plural form index. This is for string arrays. The index should start from 0. |
 | 3 | String | The text |
