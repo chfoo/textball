@@ -1,0 +1,7 @@
+-cp src/
+-cp test/
+libs.hxml
+-lib utest
+-debug
+--macro textball.test.TestResource.embed()
+-main textball.TestAll

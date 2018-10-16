@@ -1,0 +1,8 @@
+# Output files
+out/
+
+
+# temp files
+.~lock*
+
+

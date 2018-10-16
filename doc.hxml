@@ -1,0 +1,10 @@
+-cp src/
+libs.hxml
+-xml out/xml/doc.xml
+-D doc-gen
+--macro include('textball')
+--no-output
+-neko out/dummy.n
+
+--next
+-cmd haxelib run dox -i out/xml/ -o out/docs/ --include "textball" --title "Textball API Documentation"

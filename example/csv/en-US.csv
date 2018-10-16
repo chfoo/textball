@@ -1,0 +1,5 @@
+id,plural_id,string
+__plural_formula__,2,n == 1 ? 0 : 1
+1,,Select a color
+2,0,::num:: color selected
+2,1,::num:: colors selected

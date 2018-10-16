@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="Textball test" package="testball.test" version="0.0.0" company="" />
+    <app main="textball.TestResourceOpenFL" path="out/openfl/" file="TestResourceOpenFL" />
+
+    <source path="src/" />
+    <source path="test/" />
+
+    <haxelib name="hscript" />
+    <haxelib name="lime" />
+    <haxelib name="msgpack-haxe" />
+    <haxelib name="openfl" />
+    <haxelib name="resdb" />
+    <haxelib name="unifill" />
+
+    <assets path="test/assets" rename="assets" />
+</project>

@@ -1,0 +1,14 @@
+language: haxe
+
+haxe:
+  - stable
+
+install:
+  - yes | haxelib install test.hxml
+  - yes | haxelib install example.hxml
+
+script:
+  - haxe hxml/test.neko.hxml
+  - neko out/neko/test.n
+  - haxe hxml/example.neko.hxml
+  - neko out/neko/example.n

@@ -1,0 +1,5 @@
+-cp src/
+-cp example/
+libs.hxml
+--macro textball.example.Example.embedStrings()
+-main textball.example.Example
